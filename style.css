@@ -1,0 +1,107 @@
+/* 🔹 Загальні стилі */
+body {
+  font-family: "Inter", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #2a2a2a;
+  background-color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5e3bea;
+  padding: 15px 40px;
+}
+
+/* 🔹 Логотип у шапці */
+.logo img {
+  height: 40px;       /* висота логотипу */
+  width: auto;        /* ширина підлаштовується */
+  display: block;
+}
+
+nav a {
+  color: #eaeaea;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* 🔹 Головний блок */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: radial-gradient(circle at center, #f6f3ff, #ffffff);
+}
+
+.hero h1 {
+  color: #5e3bea;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 10px auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 28px;
+  background-color: #5e3bea;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #472bbf;
+}
+
+/* 🔹 Блок "Про нас" */
+.about-preview {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f8f8ff;
+}
+
+.about-preview h2 {
+  color: #5e3bea;
+}
+
+.about-preview p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+}
+
+.link {
+  color: #5e3bea;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* 🔹 Футер */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #5e3bea;
+  color: #fff;
+  font-size: 0.9rem;
+}
